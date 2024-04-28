@@ -26,7 +26,6 @@ The project includes HTML, CSS, and JavaScript files that implement the followin
 
 1. Clone the repository to your local machine:
 
-git clone https://github.com/IvanGodPro24/To-do.git
-
+git clone https://github.com/IvanGodPro24/Course-Work.git
 
 2. Open the index.html file in your browser.
