@@ -1,5 +1,5 @@
 import {tasksList} from "./elements.mjs"
-import {getTasks} from "./tasksManager.mjs"
+import {getTasks} from "../model/tasksManager.mjs"
 
 function checkEmptyList() {
     const emptyListEl = document.querySelector('#emptyList')

@@ -1,4 +1,4 @@
-import {getTasks, saveToLocalStorage} from "./tasksManager.mjs"
+import {getTasks, saveToLocalStorage} from "../model/tasksManager.mjs"
 
 function forEdit() {
     const newValue = this.textContent

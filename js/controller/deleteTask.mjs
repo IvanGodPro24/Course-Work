@@ -1,5 +1,5 @@
-import checkEmptyList from "./checkEmptyList.mjs"
-import {removeTask, saveToLocalStorage} from "./tasksManager.mjs"
+import checkEmptyList from "../view/checkEmptyList.mjs"
+import {removeTask, saveToLocalStorage} from "../model/tasksManager.mjs"
 
 function deleteTask(event) {
     if (event.target.dataset.action !== 'delete') return

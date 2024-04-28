@@ -1,6 +1,6 @@
-import renderTask from "./renderTask.mjs"
-import renderCompletedTask from "./renderCompletedTask.mjs"
-import {getTasks} from "./tasksManager.mjs"
+import renderTask from "../view/renderTask.mjs"
+import renderCompletedTask from "../view/renderCompletedTask.mjs"
+import {getTasks} from "../model/tasksManager.mjs"
 
 function whatToRender() {
     const sortedTasks = getTasks().slice().sort((a, b) => {

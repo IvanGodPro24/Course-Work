@@ -1,6 +1,6 @@
-import {tasksList, completedTasksList} from "./elements.mjs"
-import checkEmptyList from "./checkEmptyList.mjs"
-import {getTasks, saveToLocalStorage} from "./tasksManager.mjs"
+import {tasksList, completedTasksList} from "../view/elements.mjs"
+import checkEmptyList from "../view/checkEmptyList.mjs"
+import {getTasks, saveToLocalStorage} from "../model/tasksManager.mjs"
 
 function doneTask(event) {
     if (event.target.dataset.action !== 'done') return

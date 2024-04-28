@@ -1,7 +1,7 @@
-import {taskInput} from "./elements.mjs"
-import renderTask from "./renderTask.mjs"
-import checkEmptyList from "./checkEmptyList.mjs"
-import {addTasks, saveToLocalStorage} from "./tasksManager.mjs"
+import {taskInput} from "../view/elements.mjs"
+import renderTask from "../view/renderTask.mjs"
+import checkEmptyList from "../view/checkEmptyList.mjs"
+import {addTasks, saveToLocalStorage} from "../model/tasksManager.mjs"
 
 function addTask(event) {
     event.preventDefault()

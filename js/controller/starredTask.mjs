@@ -1,6 +1,6 @@
-import {tasksList, completedTasksList} from "./elements.mjs"
+import {tasksList, completedTasksList} from "../view/elements.mjs"
 import whatToRender from "./whatToRender.mjs"
-import {getTasks, saveToLocalStorage} from "./tasksManager.mjs"
+import {getTasks, saveToLocalStorage} from "../model/tasksManager.mjs"
 
 function starredTask(event) {
     if (event.target.dataset.action !== 'starred') return

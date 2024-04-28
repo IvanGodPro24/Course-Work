@@ -1,7 +1,7 @@
-import {tasksList, completedTasksList} from "./elements.mjs"
+import {tasksList, completedTasksList} from "../view/elements.mjs"
 import whatToRender from "./whatToRender.mjs"
-import checkEmptyList from "./checkEmptyList.mjs"
-import {removeDoneTask, saveToLocalStorage} from "./tasksManager.mjs"
+import checkEmptyList from "../view/checkEmptyList.mjs"
+import {removeDoneTask, saveToLocalStorage} from "../model/tasksManager.mjs"
 
 function removeDoneTasks() {
     removeDoneTask()
