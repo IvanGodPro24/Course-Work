@@ -1,0 +1,6 @@
+export const form = document.querySelector("#form")
+export const taskInput = document.querySelector("#taskInput")
+export const tasksList = document.querySelector("#tasksList")
+export const removeTasks = document.querySelector('#removeDoneTasks')
+export const editElement = document.querySelector('#edit')
+export const completedTasksList = document.querySelector('#completedTasksList')
